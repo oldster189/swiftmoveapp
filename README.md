@@ -1,3 +1,1 @@
-# swiftmoveapp
-# :) 
-# swiftmoveusers
+# Project Android SwiftMove Users Application
