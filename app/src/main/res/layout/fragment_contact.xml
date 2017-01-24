@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="หากมีคำถามหรือข้อสงสัยเกี่ยวกับการใช้บริการกรุณาติดต่อเรา"
+                android:textColor="@color/colorTextHead"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/linearCallCenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvTitle"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ฝ่ายบริการลูกค้า"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="0XX-XXX-XXXX"
+                    android:textColor="@color/newColorBlueNormal"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearCallCenter"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Email"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="service@swiftmove.com"
+                    android:textColor="@color/newColorBlueNormal"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearFacebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearEmail"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Facebook"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="www.facebook.com/swiftmovethailand"
+                    android:textColor="@color/newColorBlueNormal"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearFacebook"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/edit_text_oval4"
+                android:hint="อีเมลของคุณ"
+                android:inputType="textEmailAddress"
+                android:maxLength="50"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:textColor="@color/colorTextHead" />
+
+            <EditText
+                android:id="@+id/editTextTel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editTextEmail"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/edit_text_oval4"
+                android:hint="เบอร์โทรศัพท์"
+                android:inputType="number"
+                android:maxLength="10"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:textColor="@color/colorTextHead" />
+
+            <EditText
+                android:id="@+id/editTextIdJob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editTextTel"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/edit_text_oval4"
+                android:hint="หมายเลขงาน"
+                android:inputType="number"
+                android:maxLength="10"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:textColor="@color/colorTextHead" />
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@+id/editTextComment"
+                android:layout_marginBottom="36dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="36dp"
+                android:paddingBottom="10dp"
+                android:paddingEnd="60dp"
+                android:paddingStart="50dp"
+                android:paddingTop="10dp"
+                fancy:fb_defaultColor="@color/newColorGreenNormal"
+                fancy:fb_focusColor="@color/newColorGreenPress"
+                fancy:fb_radius="30dp"
+                fancy:fb_text="ส่ง"
+                fancy:fb_textColor="#FFFFFF"
+                fancy:fb_textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editTextComment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/edit_text_oval4"
+                android:gravity="start"
+                android:hint="ความคิดเห็นของคุณ"
+                android:inputType="textMultiLine"
+                android:lines="2"
+                android:padding="20dp"
+                android:textColor="@color/colorTextHead"
+                android:layout_below="@+id/editTextIdJob"
+                android:layout_alignStart="@+id/editTextIdJob" />
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+</layout>

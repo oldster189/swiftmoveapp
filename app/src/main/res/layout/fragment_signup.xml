@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#80000000" />
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvTextRegister"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="49dp"
+                    android:text="@string/register"
+                    android:textColor="@color/newColorGreenNormal"
+                    android:textSize="36sp" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="0dp" />
+                <FrameLayout
+
+                    android:id="@+id/frameLayoutName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvTextRegister">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="26dp"
+                        android:src="@drawable/ic_uname" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal">
+
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/inputLayoutFname"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.25"
+                            android:paddingBottom="16dp"
+                            android:paddingEnd="4dp"
+                            android:textColorHint="@color/newColorBlueNormal"
+                            android:paddingStart="60dp"
+                            android:paddingTop="4dp">
+
+                            <EditText
+                                android:id="@+id/editTextFname"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/bg_edittext"
+                                android:gravity="center_vertical"
+                                android:hint="@string/first_name"
+                                android:textColor="#ffffff"
+                                android:inputType="text" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/inputLayoutLname"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingBottom="16dp"
+                            android:paddingEnd="26dp"
+                            android:textColorHint="@color/newColorBlueNormal"
+                            android:paddingStart="0dp"
+                            android:paddingTop="4dp">
+
+                            <EditText
+                                android:id="@+id/editTextLname"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/bg_edittext"
+                                android:hint="@string/last_name"
+                                android:textColor="#ffffff"
+                                android:inputType="text" />
+
+                        </android.support.design.widget.TextInputLayout>
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayoutEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/frameLayoutName">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="26dp"
+                        android:contentDescription="@string/email"
+                        android:src="@drawable/ic_email" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/inputLayoutEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="16dp"
+                        android:paddingEnd="26dp"
+                        android:paddingStart="60dp"
+                        android:paddingTop="4dp"
+                        android:textColorHint="@color/newColorBlueNormal">
+
+                        <EditText
+                            android:id="@+id/editTextEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_edittext"
+                            android:hint="@string/email"
+                            android:inputType="textEmailAddress"
+                            android:maxLength="50"
+                            android:textColor="#ffffff" />
+
+                    </android.support.design.widget.TextInputLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayoutPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/frameLayoutEmail">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="26dp"
+                        android:contentDescription="@string/password"
+                        android:src="@drawable/ic_password" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/inputLayoutPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="16dp"
+                        android:paddingEnd="26dp"
+                        android:paddingStart="60dp"
+                        android:paddingTop="4dp"
+                        android:textColorHint="#01aff1"
+                        app:passwordToggleDrawable="@drawable/selector_button_password_visibility"
+                        app:passwordToggleEnabled="true"
+                        app:passwordToggleTint="#ffffff">
+
+                        <EditText
+                            android:id="@+id/editTextPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_edittext"
+                            android:hint="@string/password"
+                            android:inputType="textPassword"
+                            android:maxLength="16"
+                            android:textColor="#ffffff"
+                            android:textColorHint="#ffffff" />
+
+
+                    </android.support.design.widget.TextInputLayout>
+
+                </FrameLayout>
+
+                <TextView
+                    android:layout_alignBottom="@+id/frameLayoutPassword"
+                    android:id="@+id/tvTextExPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginStart="62dp"
+                    android:layout_marginTop="4dp"
+                    android:textSize="13sp"
+                    android:textColor="@color/white"
+                    android:text="@string/limit_password"
+                    android:textStyle="italic" />
+                <TextView
+                    android:id="@+id/tvTextLevelPassword"
+                    style="@style/text_view_reset_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/frameLayoutPassword"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="64dp" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayoutPasswordRe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/frameLayoutPassword">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="26dp"
+                        android:contentDescription="@string/password"
+                        android:src="@drawable/ic_password" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/inputLayoutPasswordRe"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="16dp"
+                        android:paddingEnd="26dp"
+                        android:paddingStart="60dp"
+                        android:paddingTop="4dp"
+                        android:textColorHint="#01aff1"
+                        app:passwordToggleDrawable="@drawable/selector_button_password_visibility"
+                        app:passwordToggleEnabled="true"
+                        app:passwordToggleTint="#ffffff">
+
+                        <EditText
+                            android:id="@+id/editTextPasswordRe"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_edittext"
+                            android:hint="@string/confirm_password"
+                            android:inputType="textPassword"
+                            android:maxLength="16"
+                            android:textColor="#ffffff"
+                            android:textColorHint="#ffffff" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayoutTel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/frameLayoutPasswordRe">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="26dp"
+                        android:contentDescription="@string/password"
+                        android:src="@drawable/ic_phone" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/inputLayoutTel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:paddingEnd="26dp"
+                        android:paddingStart="60dp"
+                        android:paddingTop="4dp"
+                        android:textColorHint="#01aff1"
+                        app:passwordToggleEnabled="true"
+                        app:passwordToggleTint="#ffffff">
+
+                        <EditText
+                            android:id="@+id/editTextTel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_edittext"
+                            android:hint="@string/number_phone"
+                            android:inputType="number"
+                            android:maxLength="10"
+                            android:textColor="#ffffff"
+                            android:textColorHint="#ffffff" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                </FrameLayout>
+
+                <mehdi.sakout.fancybuttons.FancyButton
+                    android:id="@+id/btnRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/frameLayoutTel"
+                    android:layout_marginBottom="46dp"
+                    android:layout_marginEnd="26dp"
+                    android:layout_marginStart="26dp"
+                    android:layout_marginTop="16dp"
+                    android:paddingBottom="10dp"
+                    android:paddingEnd="60dp"
+                    android:paddingStart="50dp"
+                    android:paddingTop="10dp"
+                    fancy:fb_defaultColor="@color/newColorBlueNormal"
+                    fancy:fb_focusColor="@color/newColorBluePress"
+                    fancy:fb_radius="30dp"
+                    fancy:fb_text="สมัครสมาชิก"
+                    fancy:fb_textColor="#FFFFFF"
+                    fancy:fb_textSize="16sp" />
+
+
+            </RelativeLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </FrameLayout>
+</layout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.oldster.swiftmove.app">
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- INTERNET ดาวน์โหลดแผนที่จาก Server -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- ACCESS_WIFI_STATE ตรวจสอบสถานะการเชื่อมต่อของ WIFi ก่อนจะดาวน์โหลดแผนที่ -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- ACCESS_FINE_LOCATION ใช้ GPS เพื่อหาตำแหน่งของผู้ใช้ให้แม่นยำที่สุดเท่าที่ทำได้ -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- ACCESS_NETWORK_STATE ตรวจสอบสถานะการเชื่อมต่อของ Cellular Data ก่อนจะดาวน์โหลดแผนที่ -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- WRITE_EXTERNAL_STORAGE เพื่อทำ Cache สำหรับข้อมูลแผนที่ -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.HomeActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.colorAccentWhite"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".activity.AccountActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".activity.SignupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.colorAccentWhite"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".activity.ProfileActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".activity.MapFromActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MapToActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DriverActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DriverInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.JobActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.OverviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ForgotPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ResetPasswordActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".activity.HistoryJobActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DriverFavoriteActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- Firebase Notifications -->
+        <service android:name=".fcm.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".fcm.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- ./Firebase Notifications -->
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDMKOzST1X3ib-bxEZfE6hqhW_L3pAZ5-k" />
+
+        <uses-feature
+            android:glEsVersion="0x00020000"
+            android:required="true" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="4ac487c14d52223bb3ecfaeea4fbf763e21814ee" />
+
+        <receiver android:name=".util.ProcessTimerReceiver">
+            <intent-filter>
+                <action android:name="processTimerReceiver" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".manager.MyReceiver">
+            <intent-filter>
+                <action android:name="OPEN_NEW_ACTIVITY" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".activity.JobDetailActivity"></activity>
+    </application>
+
+</manifest>

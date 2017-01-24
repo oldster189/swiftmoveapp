@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e9ebee">
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    card_view:cardBackgroundColor="#e7f7ff">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <FrameLayout
+                            android:paddingBottom="8dp"
+                            android:paddingEnd="16dp"
+                            android:paddingStart="16dp"
+                            android:paddingTop="8dp"
+                            android:id="@+id/statusBar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/tvIdJob"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:text="#152642"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:id="@+id/tvStatusJob"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical|end"
+                                android:background="@drawable/bg_oval"
+                                android:paddingBottom="8dp"
+                                android:paddingEnd="36dp"
+                                android:paddingStart="16dp"
+                                android:paddingTop="8dp"
+                                android:text="เสร็จสิ้น"
+                                android:textColor="#ffffff"
+                                android:textSize="16sp" />
+
+                            <ImageView
+                                android:id="@+id/imgStatus"
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:layout_gravity="end|center_vertical"
+                                android:layout_marginEnd="8dp"
+                                android:src="@drawable/ic_correct" />
+                        </FrameLayout>
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="8dp"
+                            android:paddingEnd="16dp"
+                            android:paddingStart="16dp"
+                            android:paddingTop="8dp">
+
+
+                            <ImageView
+                                android:id="@+id/imgViewDateTime"
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/ic_date_time" />
+
+                            <TextView
+                                android:id="@+id/tvTextDateTime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginStart="4dp"
+                                android:layout_toEndOf="@+id/imgViewDateTime"
+                                android:text="เวลานัดหมาย:"
+                                android:textColor="#4bb765"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/tvDateTime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                android:text="18:35, 17-10-2559"
+                                android:textColor="#4bb765"
+                                android:textSize="16sp" />
+
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="8dp"
+                            android:paddingEnd="16dp"
+                            android:paddingStart="16dp"
+                            android:paddingTop="8dp">
+
+                            <ImageView
+                                android:id="@+id/imgViewDriver"
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/ic_driver_gray" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginStart="4dp"
+                                android:layout_toEndOf="@id/imgViewDriver"
+                                android:text="ผู้ให้บริการ"
+                                android:textColor="@color/colorTextHead"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/tvDriver"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                android:text="คุณ อิทธิพล วิวัฒนสถิต"
+                                android:textColor="@color/colorTextHead"
+                                android:textSize="15sp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:paddingBottom="8dp"
+                            android:paddingEnd="16dp"
+                            android:paddingStart="16dp"
+                            android:paddingTop="8dp">
+
+                            <ImageView
+                                android:id="@+id/imgViewTypeCar"
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/ic_type_car" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginStart="4dp"
+                                android:layout_toEndOf="@id/imgViewTypeCar"
+                                android:text="ประเภทรถ"
+                                android:textColor="@color/colorTextHead"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/tvTypeCar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                android:text="กระบะ"
+                                android:textColor="@color/colorTextHead"
+                                android:textSize="15sp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    card_view:cardBackgroundColor="#f1faff">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp">
+
+                            <FrameLayout
+                                android:id="@+id/frameFrom"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true">
+
+
+                                <ImageView
+                                    android:id="@+id/imgViewFrom"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/oval_btn_from" />
+
+                                <TextView
+                                    android:id="@+id/textView2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:text="A"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </FrameLayout>
+
+                            <TextView
+
+                                android:id="@+id/tvMessagePositionFrom"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginStart="4dp"
+                                android:layout_toEndOf="@+id/frameFrom"
+                                android:text="ต้นทาง :"
+                                android:textColor="@color/colorTextHead"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvPositionFrom"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                android:ellipsize="end"
+                                android:maxLines="3"
+                                android:paddingEnd="0dp"
+                                android:paddingStart="108dp"
+                                android:textColor="#2b2b2b"
+                                android:textSize="15sp" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#d4d4d4" />
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp">
+
+                            <FrameLayout
+                                android:id="@+id/frameTo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true">
+
+
+                                <ImageView
+                                    android:id="@+id/imgViewTo"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/oval_btn_to" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:text="B"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold" />
+                            </FrameLayout>
+
+
+                            <TextView
+                                android:id="@+id/tvTextPositionTo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginStart="4dp"
+                                android:layout_toEndOf="@+id/frameTo"
+                                android:text="ปลายทาง :"
+                                android:textColor="@color/colorTextHead"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvPositionTo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                android:ellipsize="end"
+                                android:maxLines="3"
+                                android:paddingEnd="0dp"
+                                android:paddingStart="108dp"
+                                android:textColor="#2b2b2b"
+                                android:textSize="15sp" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#d4d4d4" />
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:text="ระยะทางทั้งหมด"
+                                android:textColor="@color/colorTextHead"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/tvDistance"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical|end"
+                                android:text="20 กม. 540 ม."
+                                android:textColor="@color/colorTextHead"
+                                android:textSize="15sp" />
+                        </FrameLayout>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    card_view:cardBackgroundColor="#f8fdff">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="รายการ"
+                            android:textColor="#2b2b2b"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginTop="12dp">
+
+                            <TextView
+                                android:id="@+id/tvChargeStartKm"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ราคาเริ่มต้น (0 - 5 กม.)"
+                                android:textColor="@color/colorTextHead"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/tvChargeStartPrice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end"
+                                android:text="฿ 200.00"
+                                android:textColor="@color/colorTextHead"
+                                android:textSize="16sp" />
+                        </FrameLayout>
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginTop="4dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="คิดตามระยะทาง"
+                                android:textColor="@color/colorTextHead"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/tvChargePrice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                android:text="฿ 202.02"
+                                android:textColor="@color/colorTextHead"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/tvChargeKm"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/tvChargePrice"
+                                android:text="ระยะทาง (15.540 กม.)"
+                                android:textColor="#4bb765"
+                                android:textSize="12sp" />
+                        </RelativeLayout>
+
+
+                        <FrameLayout
+                            android:id="@+id/frameLift"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginTop="4dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="คนขับช่วยยกของ"
+                                android:textColor="@color/colorTextHead"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/tvServiceLift"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end"
+                                android:text="ฟรี"
+                                android:textColor="@color/colorTextHead"
+                                android:textSize="15sp" />
+                        </FrameLayout>
+
+
+                        <RelativeLayout
+                            android:id="@+id/relativeLiftPlus"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginTop="4dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ผู้ช่วยยกของไม่รวมคนขับ"
+                                android:textColor="@color/colorTextHead"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/tvServiceLiftPlusPrice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                android:text="฿ 0"
+                                android:textColor="@color/colorTextHead"
+                                android:textSize="15sp" />
+
+                        </RelativeLayout>
+
+
+                        <FrameLayout
+                            android:id="@+id/frameCart"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginTop="4dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="รถเข็น"
+                                android:textColor="@color/colorTextHead"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/tvServiceCartPrice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end"
+                                android:text="฿ 0"
+                                android:textColor="@color/colorTextHead"
+                                android:textSize="15sp" />
+                        </FrameLayout>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp"
+                            android:src="@drawable/line" />
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginTop="4dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="รวม"
+                                android:textColor="@color/colorTextHead"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/tvListTotal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end"
+                                android:text="฿ 0"
+                                android:textColor="@color/colorTextHead"
+                                android:textSize="15sp" />
+                        </FrameLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    card_view:cardBackgroundColor="#ffffff">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ยอดรวม"
+                            android:textColor="#4bb765"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/tvTotal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:text="฿ 404.02"
+                            android:textColor="#4bb765"
+                            android:textSize="24sp" />
+                    </FrameLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_below="@+id/nav_bar"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/toolbar_dropshadow" />
+
+
+    </RelativeLayout>
+
+</layout>

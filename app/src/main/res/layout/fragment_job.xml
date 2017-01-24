@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e9ebee">
+        <RelativeLayout
+            android:id="@+id/nav_bar"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:background="#c6e7fa"
+            android:gravity="center">
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="32dp"
+                android:layout_marginStart="32dp"
+                android:background="@color/white" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/line"
+                android:layout_marginEnd="32dp"
+                android:layout_marginStart="32dp"
+                android:background="@drawable/toolbar_dropshadow" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/ic_complete" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/ic_complete" />
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/ic_active_job" />
+
+                    <ImageView
+                        android:id="@+id/sub_ring"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:layout_gravity="center" />
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/ic_overview" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/nav_bar"
+            android:layout_marginBottom="60dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/frameDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <mehdi.sakout.fancybuttons.FancyButton
+                        android:id="@+id/btnDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        fancy:fb_defaultColor="#ffffff"
+                        fancy:fb_focusColor="#cccccc"
+                        fancy:fb_text=""
+                        fancy:fb_textColor="#757575"
+                        fancy:fb_textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tvDateText"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="16dp"
+                        android:paddingEnd="48dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingStart="0dp"
+                        android:text="วันที่"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/ic_arrow" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <mehdi.sakout.fancybuttons.FancyButton
+                        android:id="@+id/btnTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        fancy:fb_defaultColor="#ffffff"
+                        fancy:fb_focusColor="#cccccc"
+                        fancy:fb_iconPosition="left"
+                        fancy:fb_radius="3dp"
+                        fancy:fb_text=""
+                        fancy:fb_textColor="#757575"
+                        fancy:fb_textSize="16sp" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/ic_arrow" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#ffffff" />
+
+                    <View
+                        android:id="@+id/viewLine"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginStart="16dp"
+                        android:background="#dadada" />
+
+                    <TextView
+                        android:id="@+id/tvTimeText"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="16dp"
+                        android:paddingEnd="48dp"
+                        android:paddingStart="0dp"
+                        android:text="เวลา"
+                        android:textSize="16sp" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#e9ebee"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingEnd="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingTop="16dp"
+                    android:text="บริการเสริม"
+                    android:textColor="#2b2b2b"
+                    android:textSize="17sp" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayoutLift"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="#ffffff">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="4dp"
+                        android:text="คนขับช่วยยกของ"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tvServiceLift"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="ฟรี"
+                        android:textColor="#4bb765" />
+
+                    <CheckBox
+                        android:id="@+id/cbServiceLiftStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginEnd="16dp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayoutLiftPlus"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="#ffffff">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="4dp"
+                        android:text="ผู้ช่วยยกของไม่รวมคนขับ"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tvServiceLiftPlusPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="฿ 300"
+                        android:textColor="#4bb765" />
+
+                    <CheckBox
+                        android:id="@+id/cbServiceLiftPlusStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginEnd="16dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#ffffff" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginStart="16dp"
+                        android:background="#dadada" />
+                </FrameLayout>
+
+                <FrameLayout
+
+                    android:id="@+id/frameLayoutCart"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="#ffffff">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="4dp"
+                        android:text="รถเข็น"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tvServiceCart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginStart="16dp"
+                        android:text="฿ 100"
+                        android:textColor="#4bb765" />
+
+                    <CheckBox
+                        android:id="@+id/cbServiceCartStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginEnd="16dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#ffffff" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginStart="16dp"
+                        android:background="#dadada" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#e9ebee"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingEnd="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingTop="16dp"
+                    android:text="หมายเหตุ"
+                    android:textColor="#2b2b2b"
+                    android:textSize="17sp" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="#ffffff">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="16dp"
+                        android:text="เพิ่มรูปภาพสิ่งของ (สูงสุดได้ 3 รูป)"
+                        android:textSize="16sp" />
+
+                    <mehdi.sakout.fancybuttons.FancyButton
+                        android:id="@+id/imgBtnChooseImg"
+                        android:layout_width="62dp"
+                        android:layout_height="46dp"
+                        android:layout_gravity="center_vertical|end"
+                        android:layout_marginEnd="16dp"
+                        android:paddingEnd="8dp"
+                        android:paddingStart="8dp"
+                        fancy:fb_defaultColor="#00ffffff"
+                        fancy:fb_focusColor="#dedede"
+                        fancy:fb_iconResource="@drawable/ic_add_camera" />
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/imgView1"
+                            android:layout_width="108dp"
+                            android:layout_height="108dp"
+                            android:layout_gravity="center"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/ic_picture"
+                            android:visibility="gone" />
+
+                        <FrameLayout
+                            android:id="@+id/btnFrameLayout1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:visibility="gone">
+
+                            <ImageButton
+                                android:id="@+id/imgBtnCancel1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@drawable/oval_transparent_green" />
+
+                            <ImageView
+                                android:layout_width="36dp"
+                                android:layout_height="36dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/ic_cancel_white" />
+                        </FrameLayout>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/imgView2"
+                            android:layout_width="108dp"
+                            android:layout_height="108dp"
+                            android:layout_gravity="center"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/ic_picture"
+                            android:visibility="gone" />
+
+                        <FrameLayout
+                            android:id="@+id/btnFrameLayout2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:visibility="gone">
+
+                            <ImageButton
+                                android:id="@+id/imgBtnCancel2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@drawable/oval_transparent_green" />
+
+                            <ImageView
+                                android:layout_width="36dp"
+                                android:layout_height="36dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/ic_cancel_white" />
+                        </FrameLayout>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+
+                        <ImageView
+                            android:id="@+id/imgView3"
+                            android:layout_width="108dp"
+                            android:layout_height="108dp"
+                            android:layout_gravity="center"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/ic_picture"
+                            android:visibility="gone" />
+
+                        <FrameLayout
+                            android:id="@+id/btnFrameLayout3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:visibility="gone">
+
+                            <ImageButton
+                                android:id="@+id/imgBtnCancel3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@drawable/oval_transparent_green" />
+
+                            <ImageView
+                                android:layout_width="36dp"
+                                android:layout_height="36dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/ic_cancel_white" />
+                        </FrameLayout>
+
+                    </FrameLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_below="@+id/nav_bar"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/toolbar_dropshadow" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="#55acee"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <mehdi.sakout.fancybuttons.FancyButton xmlns:fancy="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/btnNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingEnd="100dp"
+                android:paddingStart="100dp"
+                android:paddingTop="10dp"
+                fancy:fb_borderColor="#FFFFFF"
+                fancy:fb_borderWidth="2dp"
+                fancy:fb_defaultColor="#55acee"
+                fancy:fb_focusColor="#8cc9f8"
+                fancy:fb_radius="30dp"
+                fancy:fb_text="ต่อไป"
+                fancy:fb_textColor="#FFFFFF" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</layout>

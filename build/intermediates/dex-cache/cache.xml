@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\de.hdodenhof-circleimageview-2.1.0_6c6d1863129b961e816c0692be9b857bab61dfcb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.akexorcist\googledirectionlibrary\1.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1c4f62b5874f45a6fd3617fa6447714adb7a72a7">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.akexorcist-googledirectionlibrary-1.0.4_64b5bd1e31928ef5ce86a67b2a8fe04a76dee964.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_a27ac6b1714ea946ac35104757dd74813534bca3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.10\2ac360e8a47601a8dfd044e646f05b99d151f2e0\rxjava-1.1.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2ac360e8a47601a8dfd044e646f05b99d151f2e0">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\rxjava-1.1.10_79a3843249e8932f232a456745af987476902ea1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.1_dca999c18d13d41e38a6d87e1c15e204fa4f385c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.1_99f51d7e94ffec0ad2eec039bd7c86c9910522cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-10.0.1_a0bb7f25a03e39cbff6b57f2fc478c690316e6d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-messaging-10.0.1_ff1d089c18240bcc846be6e501a9086d47d2cd8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\me.relex\circleindicator\1.2.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1db6784d006818fee2591f13b0bf09ac31a3d49a">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\me.relex-circleindicator-1.2.2_d460396730807e919496d286e21522fd2407047c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.14\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7ff77725723167163d69439e3fd077bd0899babf">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-crashlytics-core-2.3.14_c344d52ddf6cac443959b6784eadcb9f3e82a484.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_123c810fe2fac8bfe2f091dc5302f8c1876f34fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.1_817040c7b94c7e5d75ae23edd441b529a2d58c98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.1_dadffa01b37a974b80e4e31e3c8e3ed4611de95b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.0.1_1ba61f629791ee859fceee3e4cc033fdbd9b67e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-10.0.1_afbff3135e025840c3d4d165213a2e3df4696d13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-10.0.1_ddbd9714d394cb9eb78c4fe7fd79d0f860d2e534.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-v13\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6ac094121e75b4b87432beb9305d70c68ec6dcab">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v13-25.0.0_bc8107bfe9af0a622b5045d1580604e5e58cb257.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\retrofit-2.1.0_9ee12cafc1e0e2271b16501375e7091a635e2480.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.github.jd-alexander\library\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bde00e92c4a5a0a1075df7404248ccb30fc7e62b">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.github.jd-alexander-library-1.1.0_bcf3ca670b02241a70f88b13da1c7f35a64c43b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.1_55576948896467ecfc5ce476f33c7297aa0b570d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-10.0.1_e73a4a5e74a82cd6dfb530a3be157f3403c748ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\glide-3.7.0_01372bbc8376df16e4f3ff0f8528220a05452003.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\swiftmoveapp\LoopingViewPager\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dc71c48781c6b4f4c9caace8f2c392d6e159def8">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\swiftmoveapp-LoopingViewPager-unspecified_069911a4a1838448555532d5e14fa2fa133d5b3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.1_b9162ee4d624e522aefd9da0a99f51b7a4906d13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.1_153e832af958fbaf59d0a586201c7523f749c5a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.databinding\adapters\1.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.databinding-adapters-1.2.1_a1812d39fe7d3a97e9ab62b70bb4952eff5ae9d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\me.zhanghai.android.materialprogressbar\library\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a846ddbf5bf88dee5f89d4dffe22c864f576d9b0">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\me.zhanghai.android.materialprogressbar-library-1.3.0_1b12b2721e86c0eed3a4c356714b58f682506e45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_8ba4f9052ffa3c9116ff08139fa162bb00ab9098.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_48b8d2ca14ff38ccfa639e57b50a4c51abcccc4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.afollestad.material-dialogs\core\0.9.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="16795a75616fe3ba9df9ae4af09202145e3a26dc">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.afollestad.material-dialogs-core-0.9.1.0_e5ab7e699c63a7959a9ef44b27fcd2618c7b5dd0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.2.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b42cf2134829f715edfa2adaf0ee246631322dba">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-beta-1.2.2_d89b4c3767260f88cf2cdbb9c39463726ea4dd99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-10.0.1_3c3504bf41c92be3079f939acd51e710e46380c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-10.0.1_1a3682276afa6d0c7f415fdea750b48f81cab42b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\okhttp-3.3.0_056c40c16fe74d02c45138c41226d86bcfc6169b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.github.medyo\fancybuttons\1.8.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="936fd700a7501509fec8ac684707b771e369fa62">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.github.medyo-fancybuttons-1.8.2_3a8d75dbe57f090dd3bd57484aca99f87a5b0a8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.0.1_410797552e7b50904720bcc591162f97fa1aa44e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_363d4df65d1f809787a17d8af52064db7e135ec3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.6.5\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02cc9f2e5899415add52bc716602b6b38e7eeb99">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-crashlytics-2.6.5_c759710ae3852c583686287e32c9e69726f52c27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-beta4\constraint-layout-solver-1.0.0-beta4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a9cb567dc008f570c28531720168f19148da965">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.0-beta4_8754193bb355973c6bdf276b50c9552b871011d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\libs\PhotoUtil.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="caf49e92eae4ca2805d530a92cb4777c1ef53f53">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\PhotoUtil_2eab1a2e11875bb005ac36b8843d1db2b116bdb0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\io.reactivex-rxandroid-1.2.1_7d321753eb333a4c73d0b89b10353a74c38ceed3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.0-beta4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="662d7533b25a666c649c10a16b42edfb95f25a4f">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.0.0-beta4_0eb269b19903fd4a48db53bb74ba8b33833fef6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-10.0.1_5fa0b463260c5801c969fc5fc9b961a33b290567.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-10.0.1_4e0a1d46d657e4236c3bcb5b5639886cf1d6d519.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.databinding\library\1.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.databinding-library-1.2.1_b72178aa937c234fe8fe451dffecf335a9195ea4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\glide-3.7.0_01372bbc8376df16e4f3ff0f8528220a05452003.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.afollestad.material-dialogs\core\0.9.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="16795a75616fe3ba9df9ae4af09202145e3a26dc">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.afollestad.material-dialogs-core-0.9.1.0_e5ab7e699c63a7959a9ef44b27fcd2618c7b5dd0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.14\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a319fd4d548ba4cc9511561d37109ba922bfbf6a">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\io.fabric.sdk.android-fabric-1.3.14_644721cf34c06472ec5abc0eeac58e714ec3c24a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.1_9861689612465d3b2c8c841bb88826a6d578f257.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.inthecheesefactory.thecheeselibrary\adjustable-imageview\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6f4877a9f0a653e193bfb600379e4bfc8472be47">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.inthecheesefactory.thecheeselibrary-adjustable-imageview-1.0.0_c2536cb58f2dcb0df12dd816399c10ae312c1cdf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.10\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ed6b455e3dd7bbf1ff31f8df0b41e2f0d87f3ace">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-answers-1.3.10_9ea28a014a4bb5a278312c8bf7ca032fa4e4aad7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.10\2ac360e8a47601a8dfd044e646f05b99d151f2e0\rxjava-1.1.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2ac360e8a47601a8dfd044e646f05b99d151f2e0">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\rxjava-1.1.10_79a3843249e8932f232a456745af987476902ea1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-10.0.1_4e0a1d46d657e4236c3bcb5b5639886cf1d6d519.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.2.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b42cf2134829f715edfa2adaf0ee246631322dba">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-beta-1.2.2_d89b4c3767260f88cf2cdbb9c39463726ea4dd99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-10.0.1_1a3682276afa6d0c7f415fdea750b48f81cab42b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.0.1_d5eb9eadbcefce0cf2e11360cc5c0d3a5982a36b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_a27ac6b1714ea946ac35104757dd74813534bca3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-10.0.1_afbff3135e025840c3d4d165213a2e3df4696d13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-25.0.1_68ed59017ba6d155bbb4eed110df7f2239557d07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\libs\PhotoUtil.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caf49e92eae4ca2805d530a92cb4777c1ef53f53">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\PhotoUtil_2eab1a2e11875bb005ac36b8843d1db2b116bdb0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\okio-1.8.0_841b18bf8d4cc98ab21c2f615ba9b0a36fd4415b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\io.reactivex-rxandroid-1.2.1_7d321753eb333a4c73d0b89b10353a74c38ceed3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.1_dadffa01b37a974b80e4e31e3c8e3ed4611de95b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.14\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a319fd4d548ba4cc9511561d37109ba922bfbf6a">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\io.fabric.sdk.android-fabric-1.3.14_644721cf34c06472ec5abc0eeac58e714ec3c24a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_123c810fe2fac8bfe2f091dc5302f8c1876f34fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\swiftmoveapp\LoopingViewPager\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3bb2a9c50a7c18c2cfaf7a2ee873de90e6ff748e">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\swiftmoveapp-LoopingViewPager-unspecified_069911a4a1838448555532d5e14fa2fa133d5b3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.databinding\library\1.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.databinding-library-1.2.1_b72178aa937c234fe8fe451dffecf335a9195ea4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-places-10.0.1_a6d00e0d017a770aec784cbc9b41c3e50dd4445f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-beta4\constraint-layout-solver-1.0.0-beta4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0a9cb567dc008f570c28531720168f19148da965">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.0-beta4_8754193bb355973c6bdf276b50c9552b871011d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.github.jd-alexander\library\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bde00e92c4a5a0a1075df7404248ccb30fc7e62b">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.github.jd-alexander-library-1.1.0_bcf3ca670b02241a70f88b13da1c7f35a64c43b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\.gradle\caches\modules-2\files-2.1\org.parceler\parceler-api\1.0.4\4f7392b86e064f3f6da06977f54c21a48e6b6871\parceler-api-1.0.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4f7392b86e064f3f6da06977f54c21a48e6b6871">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\parceler-api-1.0.4_868dd12a1b8ea357e895eebd91dec7d24d53ecbb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-10.0.1_f8a08d8ab3a0dea8097e8212a3623d73ac031d94.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-25.0.1_68ed59017ba6d155bbb4eed110df7f2239557d07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\android\databinding\baseLibrary\2.2.3\baseLibrary-2.2.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b4b51d1925cdfda98fd861230c1ecb5855500129">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\baseLibrary-2.2.3_8bc637fcca1e0a3556ffc9576dbd2dded58abbcb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.1_153e832af958fbaf59d0a586201c7523f749c5a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.6.5\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="02cc9f2e5899415add52bc716602b6b38e7eeb99">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-crashlytics-2.6.5_c759710ae3852c583686287e32c9e69726f52c27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\okio-1.8.0_841b18bf8d4cc98ab21c2f615ba9b0a36fd4415b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.0.1_1ba61f629791ee859fceee3e4cc033fdbd9b67e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.inthecheesefactory.thecheeselibrary\adjustable-imageview\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6f4877a9f0a653e193bfb600379e4bfc8472be47">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.inthecheesefactory.thecheeselibrary-adjustable-imageview-1.0.0_c2536cb58f2dcb0df12dd816399c10ae312c1cdf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.github.medyo\fancybuttons\1.8.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="936fd700a7501509fec8ac684707b771e369fa62">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.github.medyo-fancybuttons-1.8.2_3a8d75dbe57f090dd3bd57484aca99f87a5b0a8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.cocosw\bottomsheet\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="37a4672e2ae8d65082bd66183d12fcd5d106a336">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.cocosw-bottomsheet-1.3.0_20979c9b161865fee30b952c2d355549ebb8ba94.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-10.0.1_82135dd4b6c8edfe233dd0ff24ec373197238920.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\okhttp-3.3.0_056c40c16fe74d02c45138c41226d86bcfc6169b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.databinding\adapters\1.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.databinding-adapters-1.2.1_a1812d39fe7d3a97e9ab62b70bb4952eff5ae9d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.1_b9162ee4d624e522aefd9da0a99f51b7a4906d13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-10.0.1_f8a08d8ab3a0dea8097e8212a3623d73ac031d94.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\.gradle\caches\modules-2\files-2.1\org.parceler\parceler-api\1.0.4\4f7392b86e064f3f6da06977f54c21a48e6b6871\parceler-api-1.0.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4f7392b86e064f3f6da06977f54c21a48e6b6871">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\parceler-api-1.0.4_868dd12a1b8ea357e895eebd91dec7d24d53ecbb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.0.1_410797552e7b50904720bcc591162f97fa1aa44e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.1_dcb79e09496593951ea6a1ce7479a2aeed10fecc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-10.0.1_5fa0b463260c5801c969fc5fc9b961a33b290567.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-10.0.1_3c3504bf41c92be3079f939acd51e710e46380c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.0.1_d5eb9eadbcefce0cf2e11360cc5c0d3a5982a36b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\gson-2.7_79453aa70ce6f754299239f7c83ddb26cb9e2843.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-10.0.1_a0bb7f25a03e39cbff6b57f2fc478c690316e6d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.akexorcist\googledirectionlibrary\1.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1c4f62b5874f45a6fd3617fa6447714adb7a72a7">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.akexorcist-googledirectionlibrary-1.0.4_64b5bd1e31928ef5ce86a67b2a8fe04a76dee964.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-places-10.0.1_a6d00e0d017a770aec784cbc9b41c3e50dd4445f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-connection-10.0.1_5e621ff1a2815560faa77a63b019d66e97260abe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\me.relex\circleindicator\1.2.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1db6784d006818fee2591f13b0bf09ac31a3d49a">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\me.relex-circleindicator-1.2.2_d460396730807e919496d286e21522fd2407047c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.0-beta4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="662d7533b25a666c649c10a16b42edfb95f25a4f">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.0.0-beta4_0eb269b19903fd4a48db53bb74ba8b33833fef6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-v13\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ac094121e75b4b87432beb9305d70c68ec6dcab">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v13-25.0.0_bc8107bfe9af0a622b5045d1580604e5e58cb257.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-10.0.1_ddbd9714d394cb9eb78c4fe7fd79d0f860d2e534.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.10\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ed6b455e3dd7bbf1ff31f8df0b41e2f0d87f3ace">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-answers-1.3.10_9ea28a014a4bb5a278312c8bf7ca032fa4e4aad7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_e950527f871a1d144b5ac266f34cb77d42fddbff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.github.nguyenhoanglam\ImagePicker\1.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="73ec0694e99a23153d3cb075c838ac28ad159013">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.github.nguyenhoanglam-ImagePicker-1.1.1_bb9df9fb0273ff4928d4a5f192ee951999c98f75.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-10.0.1_e73a4a5e74a82cd6dfb530a3be157f3403c748ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.1_dcb79e09496593951ea6a1ce7479a2aeed10fecc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\swiftmoveapp\TheCheeseLibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9056211fc4694e23ac610141a8f4db42b09fbf3">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\swiftmoveapp-TheCheeseLibrary-unspecified_95f4dc950ddabdd680162ca18832cded4af4e836.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-10.0.1_82135dd4b6c8edfe233dd0ff24ec373197238920.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\retrofit-2.1.0_9ee12cafc1e0e2271b16501375e7091a635e2480.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-connection-10.0.1_5e621ff1a2815560faa77a63b019d66e97260abe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.14\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7ff77725723167163d69439e3fd077bd0899babf">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-crashlytics-core-2.3.14_c344d52ddf6cac443959b6784eadcb9f3e82a484.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.1_817040c7b94c7e5d75ae23edd441b529a2d58c98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.1_9861689612465d3b2c8c841bb88826a6d578f257.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_363d4df65d1f809787a17d8af52064db7e135ec3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.1_99f51d7e94ffec0ad2eec039bd7c86c9910522cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\.gradle\caches\modules-2\files-2.1\com.squareup\otto\1.3.8\cf615176cd1177edf71d3c9605f8dc148fede6be\otto-1.3.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cf615176cd1177edf71d3c9605f8dc148fede6be">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\otto-1.3.8_969153a5e9756bce6880efe40770d4b6043d870f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-v13\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="67355078cd30daae43f62ba47a4663ee6edb976e">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_5f99956566d40cad750deb70320a5bf98e83235e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\converter-gson-2.1.0_914f89ea1a95de22388c71ed3ab74ba3a25bf2db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\me.zhanghai.android.materialprogressbar\library\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a846ddbf5bf88dee5f89d4dffe22c864f576d9b0">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\me.zhanghai.android.materialprogressbar-library-1.3.0_1b12b2721e86c0eed3a4c356714b58f682506e45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\swiftmoveapp\TheCheeseLibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e9056211fc4694e23ac610141a8f4db42b09fbf3">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\swiftmoveapp-TheCheeseLibrary-unspecified_95f4dc950ddabdd680162ca18832cded4af4e836.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_8ba4f9052ffa3c9116ff08139fa162bb00ab9098.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_48b8d2ca14ff38ccfa639e57b50a4c51abcccc4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\android\databinding\baseLibrary\2.2.3\baseLibrary-2.2.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b4b51d1925cdfda98fd861230c1ecb5855500129">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\baseLibrary-2.2.3_8bc637fcca1e0a3556ffc9576dbd2dded58abbcb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\de.hdodenhof-circleimageview-2.1.0_6c6d1863129b961e816c0692be9b857bab61dfcb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.1_dca999c18d13d41e38a6d87e1c15e204fa4f385c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_e950527f871a1d144b5ac266f34cb77d42fddbff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.github.nguyenhoanglam\ImagePicker\1.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="73ec0694e99a23153d3cb075c838ac28ad159013">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.github.nguyenhoanglam-ImagePicker-1.1.1_bb9df9fb0273ff4928d4a5f192ee951999c98f75.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-v13\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67355078cd30daae43f62ba47a4663ee6edb976e">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_5f99956566d40cad750deb70320a5bf98e83235e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\.gradle\caches\modules-2\files-2.1\com.squareup\otto\1.3.8\cf615176cd1177edf71d3c9605f8dc148fede6be\otto-1.3.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cf615176cd1177edf71d3c9605f8dc148fede6be">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\otto-1.3.8_969153a5e9756bce6880efe40770d4b6043d870f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\gson-2.7_79453aa70ce6f754299239f7c83ddb26cb9e2843.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-messaging-10.0.1_ff1d089c18240bcc846be6e501a9086d47d2cd8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\converter-gson-2.1.0_914f89ea1a95de22388c71ed3ab74ba3a25bf2db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Users\Old&apos;ster\AndroidStudioProjects\swiftmoveapp\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.1_55576948896467ecfc5ce476f33c7297aa0b570d.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_top">
+
+        <item
+            android:id="@+id/nav_route"
+            android:icon="@drawable/ic_transit"
+            android:title="เรียกใช้บริการ" />
+        <item
+            android:id="@+id/nav_list_job"
+            android:icon="@drawable/ic_list_job"
+            android:title="รายการย้ายของ" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history"
+            android:title="ประวัติ" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_favorite"
+            android:title="คนขับคนโปรด" />
+    </group>
+    <group
+        android:id="@+id/menu_center"
+        android:checkableBehavior="none">
+        <item android:title="เพิ่มเติม">
+            <menu>
+                <item
+                    android:id="@+id/nav_info"
+                    android:icon="@drawable/ic_edit"
+                    android:title="จัดการบัญชี" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="ออกจากระบบ" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

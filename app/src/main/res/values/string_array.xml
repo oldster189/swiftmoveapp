@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="typeDriver">
+        <item>คนขับทั่วไป</item>
+        <item>คนขับคนโปรด</item>
+    </string-array>
+</resources>

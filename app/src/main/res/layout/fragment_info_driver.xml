@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+
+                android:paddingBottom="4dp"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="4dp">
+
+                <TextView
+                    android:id="@+id/textViewRating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/rating" />
+
+                <RatingBar
+                    android:id="@+id/rtbProductRating"
+                    style="@style/foodRatingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/textViewRating"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:paddingTop="8dp"
+                    android:rating="5" />
+
+                <TextView
+                    android:id="@+id/textViewScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:text="4.5 (16)" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:background="#e9ebee" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:paddingBottom="4dp"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="4dp">
+
+                <TextView
+                    android:id="@+id/TypeCar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/type_car" />
+
+                <TextView
+                    android:id="@+id/textViewTypeCar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginBottom="8dp"
+                    android:text="รถกระบะ" />
+
+                <TextView
+                    android:id="@+id/brand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/TypeCar"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/brand_car" />
+
+                <TextView
+                    android:id="@+id/textViewBrand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/TypeCar"
+                    android:layout_marginBottom="8dp"
+                    android:text="Toyota" />
+
+                <TextView
+                    android:id="@+id/model"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/brand"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/model_car" />
+
+                <TextView
+                    android:id="@+id/textViewModel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/brand"
+                    android:layout_marginBottom="8dp"
+                    android:text="Fortuner" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/model"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/license_plate" />
+
+                <TextView
+                    android:id="@+id/textViewLicensePlate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/model"
+                    android:layout_marginBottom="8dp"
+                    android:text="บท 0202 (เชียงราย)" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:background="#e9ebee" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:paddingBottom="4dp"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="4dp">
+
+                <TextView
+                    android:id="@+id/service"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/service_charge"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/chargeStart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/service"
+                    android:layout_marginBottom="8dp"
+                    android:text="ราคาเริ่มต้น( 3 กม. )" />
+
+                <TextView
+                    android:id="@+id/textViewChargeStart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/service"
+                    android:layout_marginBottom="8dp"
+                    android:text="฿200" />
+
+                <TextView
+                    android:id="@+id/chargeAfter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/chargeStart"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/charge_rate" />
+
+                <TextView
+                    android:id="@+id/textViewCharge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/chargeStart"
+                    android:layout_marginBottom="8dp"
+                    android:text="฿16/กม." />
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:background="#e9ebee" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:paddingBottom="4dp"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="4dp">
+
+                <TextView
+                    android:id="@+id/tvServicePlus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/additional_service"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/serviceLift"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvServicePlus"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/driver_lift" />
+
+                <TextView
+                    android:id="@+id/textViewServiceLift"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/tvServicePlus"
+                    android:layout_marginBottom="8dp"
+                    android:text="ฟรี" />
+
+                <TextView
+                    android:id="@+id/serviceLiftPlus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewServiceLift"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/assistant_lift" />
+
+                <TextView
+                    android:id="@+id/textViewServiceLiftPlusPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/textViewServiceLift"
+                    android:layout_marginBottom="8dp"
+                    android:text="ไม่มี" />
+
+                <TextView
+                    android:id="@+id/textViewServiceCart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/serviceLiftPlus"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/cart" />
+
+                <TextView
+                    android:id="@+id/textViewServiceCartPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/serviceLiftPlus"
+                    android:layout_marginBottom="8dp"
+                    android:text="ไม่มี" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_marginBottom="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:background="#e9ebee" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</layout>
